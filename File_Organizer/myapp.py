@@ -1,7 +1,7 @@
 import os
 import shutil
 from pathlib import Path
-
+#get the file 
 def GTF():
     folder = input("Enter the full path of the folder you want to organze: ")
     if not os.path.exists(folder):
@@ -47,4 +47,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
  
