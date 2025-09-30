@@ -6,7 +6,7 @@ responses = {
     "hello": "Hi there! Need any assistance?",
     "how are you": "I'm just a bot, but I'm doing great! How about you?",
     "what is your name": "I'm SujalBot, your friendly assistant!",
-    "bye": "Goodbye! Have a great day!",
+    "bye": "Goodbye! Have a great day/night!",
     "default": "Sorry, I don't understand that."
 }
 
@@ -29,3 +29,4 @@ def chat():
 # Run the chatbot
 if __name__ == "__main__":
     chat()
+
